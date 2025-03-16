@@ -10,14 +10,14 @@ body {
     max-width: 500px;
 }
 
-.gauges-container {
+.contenedor_temperatura{
     display: flex;
     justify-content: center;
-    gap: 20px;  /* Espacio entre elementos */
-    flex-wrap: wrap; /* Permite acomodarse en pantallas pequeñas */
+    gap: 20px; 
+    flex-wrap: wrap;
 }
 
-.gauge-box {
+.contenedor_humedad {
     text-align: center;
     background-color: #f4f4f4;
     padding: 15px;
