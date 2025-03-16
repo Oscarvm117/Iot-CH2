@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.container {
+    margin: 20px auto;
+    width: 90%;
+    max-width: 500px;
+}
+
+.status {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.normal { background-color: green; color: white; }
+.caution { background-color: yellow; color: black; }
+.warning { background-color: orange; color: white; }
+.critical { background-color: red; color: white; }
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
