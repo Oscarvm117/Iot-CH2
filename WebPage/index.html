@@ -12,11 +12,17 @@
 <body>
     <h1>Tablero de Control</h1>
     <div class="container">
-        <h2>Temperatura</h2>
-        <div id="gauge" style="width:200px; height:160px; margin:auto;"></div>
+        <div class="gauges-container">
+            <div class="gauge-box">
+                <h2>Temperatura</h2>
+                <div id="gauge" style="width:200px; height:160px;"></div>
+            </div>
+            <div class="gauge-box">
+                <h2>Humedad</h2>
+                <div id="gauge-humidity" style="width:200px; height:160px;"></div>
+            </div>
+        </div>
         <h2>Distancia Ultrasónica</h2>
-        <h2>Humedad</h2>
-<div id="gauge-humidity" style="width:200px; height:160px; margin:auto;"></div>
         <p id="distance">Cargando...</p>
         <div id="status" class="status normal">NORMAL</div>
         <button onclick="apagarDispositivos()">Apagar Todo</button>
