@@ -8,6 +8,15 @@ document.addEventListener("DOMContentLoaded", function() {
         label: "Temperatura"
     });
 
+    var gHumidity = new JustGage({
+        id: "gauge-humidity",
+        value: 60,  // Valor inicial
+        min: 0,
+        max: 100,
+        title: "Humedad",
+        label: "%"
+    });
+
     var socket = new WebSocket("ws://" + window.location.host + "/ws");
     socket.onmessage = function(event) {
         var data = JSON.parse(event.data);
