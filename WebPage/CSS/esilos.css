@@ -8,9 +8,12 @@ body {
     margin: 20px auto;
     width: 90%;
     max-width: 500px;
+    border-radius: 10px;
 }
 
 .contenedor_temperatura{
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     display: flex;
     justify-content: center;
     background-color: #f4f4f4;
@@ -21,9 +24,8 @@ body {
 .contenedor_humedad {
     text-align: center;
     background-color: #f4f4f4;
-    padding: 15px;
+    padding: 2px;
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .status {
