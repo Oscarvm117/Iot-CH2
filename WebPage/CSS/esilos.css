@@ -13,6 +13,7 @@ body {
 .contenedor_temperatura{
     display: flex;
     justify-content: center;
+    background-color: #f4f4f4;
     gap: 20px; 
     flex-wrap: wrap;
 }
