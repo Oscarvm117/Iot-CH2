@@ -48,3 +48,18 @@ function apagarDispositivos() {
         .then(response => response.text())
         .then(data => alert(data));
 }
+
+function actualizarHistorial(distancia, estado) {
+    let tabla = document.getElementById("historial").getElementsByTagName('tbody')[0];
+    
+    let nuevaFila = tabla.insertRow();
+    let celdaFecha = nuevaFila.insertCell(0);
+    let celdaDistancia = nuevaFila.insertCell(1);
+    let celdaEstado = nuevaFila.insertCell(2);
+    
+    let fechaHora = new Date().toLocaleString();
+
+    celdaFecha.innerHTML = fechaHora;
+    celdaDistancia.innerHTML = `${distancia} cm`;
+    celdaEstado.innerHTML = estado;
+}
