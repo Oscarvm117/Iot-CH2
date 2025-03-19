@@ -54,3 +54,20 @@ button {
 button:hover {
     background-color: #0056b3;
 }
+#historial {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#historial th, #historial td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+#historial th {
+    background-color: #4CAF50;
+    color: white;
+}
+
